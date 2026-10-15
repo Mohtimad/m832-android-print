@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M832 Print</string>
+    <string name="advanced_options_label">M832 options</string>
+    <string name="help_print_pdf">To print a PDF, choose Print, then Phomemo M832 in your PDF reader.</string>
+    <string name="status_idle">M832 status: waiting…</string>
+    <string name="status_reading">Reading M832 status…</string>
+    <string name="refresh_status">Refresh status</string>
+    <string name="android_print_settings">Android print settings</string>
+    <string name="bluetooth_permission_needed">Allow Nearby devices to read the M832 status.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission denied.</string>
+    <string name="printer_no_response">The M832 is not responding. Check that it is turned on.</string>
+    <string name="status_unavailable">Status unavailable: %1$s</string>
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="status_summary">Cover: %1$s (code %2$s)\nPaper: %3$s\nBattery: unconfirmed value (code %4$s)\nHex response: %5$s</string>
+    <string name="unknown">unknown</string>
+    <string name="unavailable">unavailable</string>
+    <string name="cover_closed">closed</string>
+    <string name="cover_open">open</string>
+    <string name="paper_present">present</string>
+    <string name="paper_absent">absent</string>
+    <string name="bluetooth_disabled">Bluetooth is off</string>
+    <string name="printer_not_paired">M832 is not among paired Bluetooth devices</string>
+    <string name="density_title">Print density</string>
+    <string-array name="density_choices">
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="print_data_missing">Print PDF is missing</string>
+    <string name="page_progress">Page %1$d / %2$d</string>
+    <string name="print_error">M832: %1$s</string>
+    <string name="printer_waiting">Waiting for the M832 or another sheet</string>
+    <string name="print_cancelled">Print cancelled</string>
+    <string name="cover_close_prompt">Close the M832 cover</string>
+    <string name="paper_insert_prompt">Insert an A4 thermal sheet into the M832</string>
+    <string name="status_checking">Checking M832 status</string>
+    <string name="pdf_too_large">PDF exceeds 100 MB</string>
+    <string name="pdf_empty">PDF is empty</string>
+    <string name="connection_interrupted">M832 connection interrupted</string>
+    <string name="invalid_raster_dimensions">Invalid raster dimensions</string>
+</resources>

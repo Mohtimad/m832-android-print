@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<print-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="fr.damien.m832print.MainActivity"
+    android:advancedPrintOptionsActivity="fr.damien.m832print.AdvancedOptionsActivity" />

@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Feuille A4 sortant d'une imprimante thermique compacte. -->
+    <path android:fillColor="#FFFFFF" android:pathData="M34,17h40v37H34z" />
+    <path android:fillColor="#B5D9F4" android:pathData="M41,27h26v3H41zM41,34h22v3H41zM41,41h26v3H41z" />
+    <path android:fillColor="#175D9B" android:pathData="M24,48h60c4,0 7,3 7,7v26H17V55c0,-4 3,-7 7,-7z" />
+    <path android:fillColor="#0E477A" android:pathData="M17,74h74v7H17z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M34,78h40v16H34z" />
+    <path android:fillColor="#B5D9F4" android:pathData="M41,84h26v3H41z" />
+    <path android:fillColor="#78D8D6" android:pathData="M75,57a4,4 0,1 0,8 0a4,4 0,1 0,-8 0" />
+</vector>

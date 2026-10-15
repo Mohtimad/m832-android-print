@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M832 Print</string>
+    <string name="advanced_options_label">Options M832</string>
+    <string name="help_print_pdf">Pour imprimer un PDF, choisis « Imprimer », puis « Phomemo M832 » dans ton lecteur PDF.</string>
+    <string name="status_idle">État de la M832 : en attente…</string>
+    <string name="status_reading">Lecture de l’état de la M832…</string>
+    <string name="refresh_status">Actualiser l’état</string>
+    <string name="android_print_settings">Réglages d’impression Android</string>
+    <string name="bluetooth_permission_needed">Autorise « Appareils à proximité » pour lire l’état de la M832.</string>
+    <string name="bluetooth_permission_denied">Permission Bluetooth refusée.</string>
+    <string name="printer_no_response">La M832 ne répond pas. Vérifie qu’elle est allumée.</string>
+    <string name="status_unavailable">État indisponible : %1$s</string>
+    <string name="unexpected_error">Erreur inattendue</string>
+    <string name="status_summary">Capot : %1$s (code %2$s)\nPapier : %3$s\nBatterie : valeur non confirmée (code %4$s)\nRéponse hex : %5$s</string>
+    <string name="unknown">inconnu</string>
+    <string name="unavailable">indisponible</string>
+    <string name="cover_closed">fermé</string>
+    <string name="cover_open">ouvert</string>
+    <string name="paper_present">présent</string>
+    <string name="paper_absent">absent</string>
+    <string name="bluetooth_disabled">Bluetooth désactivé</string>
+    <string name="printer_not_paired">M832 absente des appareils Bluetooth associés</string>
+    <string name="density_title">Densité d’impression</string>
+    <string-array name="density_choices">
+        <item>Claire</item>
+        <item>Modérée</item>
+        <item>Épaisse</item>
+    </string-array>
+    <string name="cancel">Annuler</string>
+    <string name="apply">Appliquer</string>
+    <string name="print_data_missing">PDF d’impression absent</string>
+    <string name="page_progress">Page %1$d / %2$d</string>
+    <string name="print_error">M832 : %1$s</string>
+    <string name="printer_waiting">Attente de la M832 ou d’une nouvelle feuille</string>
+    <string name="print_cancelled">Impression annulée</string>
+    <string name="cover_close_prompt">Fermez le capot de la M832</string>
+    <string name="paper_insert_prompt">Insérez une feuille thermique A4 dans la M832</string>
+    <string name="status_checking">Vérification de l’état de la M832</string>
+    <string name="pdf_too_large">PDF supérieur à 100 Mo</string>
+    <string name="pdf_empty">PDF vide</string>
+    <string name="connection_interrupted">Connexion M832 interrompue</string>
+    <string name="invalid_raster_dimensions">Dimensions raster invalides</string>
+</resources>
