@@ -36,6 +36,8 @@ Utiliser un JDK compatible avec Android Gradle Plugin 8.11.1 et installer le SDK
 
 L'APK de développement est créé dans `app/build/outputs/apk/debug/app-debug.apk`. L'installer avec `adb install -r app/build/outputs/apk/debug/app-debug.apk`, puis activer le service d'impression dans les réglages Android. L'application cible Android 15 et fonctionne à partir d'Android 12.
 
+Pour créer une version signée, conserver la clé privée et ses identifiants ensemble hors du dépôt, puis lancer `python3 scripts/build_release.py /chemin/vers/credentials.txt`. L'APK signé se trouve dans `app/build/outputs/apk/release/app-release.apk`. Sauvegarder les deux fichiers de signature : les prochaines mises à jour devront utiliser la même clé. Une version signée avec une nouvelle clé ne peut pas remplacer directement une installation de développement ; il faut d'abord désinstaller cette dernière.
+
 Ce projet est indépendant et n'est pas affilié à Phomemo.
 
 Projet sous [licence MIT](LICENSE).

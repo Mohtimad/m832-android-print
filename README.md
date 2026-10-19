@@ -36,6 +36,8 @@ Use a JDK supported by Android Gradle Plugin 8.11.1 and install Android SDK 35. 
 
 The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`. Install it with `adb install -r app/build/outputs/apk/debug/app-debug.apk`, then enable the print service in Android settings. The app targets Android 15 and supports Android 12 or later.
 
+For a signed release, keep your private keystore and its credentials together outside the repository and run `python3 scripts/build_release.py /path/to/credentials.txt`. The signed APK is written to `app/build/outputs/apk/release/app-release.apk`. Back up both signing files: future updates must use the same key. A release signed with a new key cannot update a debug installation directly; uninstall the debug build first.
+
 This is an unofficial project and is not affiliated with Phomemo.
 
 Licensed under [MIT](LICENSE).

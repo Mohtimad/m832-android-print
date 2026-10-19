@@ -4,3 +4,6 @@
 local.properties
 *.iml
 .DS_Store
+*.keystore
+*.jks
+M832Print-release-credentials.txt
